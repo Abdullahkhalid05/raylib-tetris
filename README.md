@@ -1,2 +1,2 @@
 # Tetris Game Using Raylib.h
-!(screen shot)[./ss.png] 
+![screen shot](ss.png) 
