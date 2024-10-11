@@ -127,6 +127,7 @@ void checkAndClearFullLines() {
 bool gameOver = false;
 struct Piece rotateBlock(struct Piece piece, int rotation) {
     struct Piece tempBlock;
+    tempBlock.color = piece.color;
     int ir = (int) rotation /90;
     switch (ir) {
     case 0:
